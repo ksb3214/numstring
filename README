@@ -1,0 +1,12 @@
+Numstring
+
+This is a very simple example of a small program to enumerate a string.
+
+I made this as a really very insecure way of being able to provide individual letters of a long complex password.
+
+Compile
+
+This should be pretty simple on all platforms...
+
+gcc -o numstring main.c
+
