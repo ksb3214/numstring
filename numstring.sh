@@ -9,7 +9,7 @@ COUNT=0
 
 while read -n1 char; do
 	let POS=($COUNT+1)%10
-    printf "%d" "$POS"
+	printf "%d" "$POS"
 	let COUNT=$COUNT+1
 done < <(echo -n "$@")
 
