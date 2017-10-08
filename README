@@ -10,3 +10,7 @@ This should be pretty simple on all platforms...
 
 gcc -o numstring main.c
 
+For fun I did a bash version...
+
+./numstring.sh <string>
+
